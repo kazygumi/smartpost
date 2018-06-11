@@ -1,0 +1,27 @@
+{
+    "version": "0.1.0",
+    "name": "SmartPostFire",
+    "description": "SmartPostにおいてCHIRIMEN側へインストールするアプリ。ポストの投函を感知し、LEDを光らせ、SmartPostCameraへ通信する機能を持つ。",
+    "type": "certified",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "kazy",
+        "url": "http://kazy.jp/"
+    },
+    "icons": {
+        "16": "/icons/icon16x16.png",
+        "48": "/icons/icon48x48.png",
+        "60": "/icons/icon60x60.png",
+        "128": "/icons/icon128x128.png"
+    },
+    "role": "homescreen",
+    "permissions": {
+        "camera": {},
+        "device-storage:pictures": {
+            "access": "readwrite"
+        },
+        "tcp-socket": {},
+        "wifi-manage": {},
+        "systemXHR": {}
+    }
+}
